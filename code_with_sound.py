@@ -24,3 +24,5 @@ class FadeInSquare(Scene):
                 self.play(AddTextLetterByLetter(line), time_per_char=0.01)
         self.play(AddTextLetterByLetter(rendered_code.code[2:]))
         self.wait(2)
+
+# ensuring that the file with an example of code is on the project
